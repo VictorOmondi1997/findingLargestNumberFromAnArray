@@ -1,11 +1,8 @@
 #include <iostream>
-
 using namespace std;
-
 class Numbers{
     int i;
     float num[];
-
 public:
     void getNum(){
         for(i=0; i<10; i++){
@@ -20,7 +17,6 @@ public:
         cout << "The largest Number is: "<< num[0];
     }
 };
-
 int main(){
     Numbers No;
     No.getNum();
