@@ -1,12 +1,9 @@
 #include <iostream>
-
 using namespace std;
-
 int main()
 {
     float num[10];
     int i;
-
     //Storing Numbers entered by user into the array
     for(i=0; i<10; i++){
         cout << "Enter Numbers " << i+1<< " : ";
